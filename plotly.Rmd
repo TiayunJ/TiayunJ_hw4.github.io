@@ -24,11 +24,24 @@ instacart_df =
 
 ```
 
-# plot 1
+# plot 1 - bar chart
 ```{r}
 instacart_df %>% 
-  
+  group_by(aisle) %>% 
+  summarize(obs = n()) %>% 
+  mutate(aisle = fct_reorder(aisle, obs)) %>% 
+  plot_ly(x = ~aisle, y = ~obs, color = ~aisle, type = "bar", colors = "viridis")
 ```
 
 
+# plot 2 - box plot
+```{r}
+instacart_df %>% 
+  plot_ly(x = ~aisle, y = ~ order_dow, color = ~aisle, type = "box", colors = "viridis")
+```
+
+# plot  - scatter plot
+```{r}
+
+```
 
