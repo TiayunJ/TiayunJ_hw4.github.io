@@ -7,7 +7,7 @@ output:
 ---
 
 # This is Tianyun's website
-
+![](image/cat.jpeg)
 
 My cat Piglet! He didn't want to look at the camera lol
 
