@@ -1,13 +1,11 @@
 ---
-title: "Tianyun Jiang"
+title: "My resume"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
-
-
-
+![](image/resume.png)
 
 
 
