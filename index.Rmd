@@ -5,8 +5,10 @@ output:
     toc: true
     toc_float: true
 ---
+This website includes a navigation bar, linking to resume, a dashboard, and links to email, github website, and linkedin.
 
 ## My cat
+
 My cat Piglet, trying his best not to get up lol
 
 
