@@ -40,8 +40,12 @@ instacart_df %>%
   plot_ly(x = ~aisle, y = ~ order_dow, color = ~aisle, type = "box", colors = "viridis")
 ```
 
-# plot  - scatter plot
+# plot 3  - line plot
 ```{r}
-
+instacart_df %>% 
+  group_by(aisle, order_hour_of_day) %>% 
+  summarize(obs = n()) %>% 
+  plot_ly(x = ~order_hour_of_day, y = ~obs, color = ~aisle, type = "scatter", mode = 'lines+markers', colors = "viridis")
+  
 ```
 
