@@ -24,4 +24,11 @@ instacart_df =
 
 ```
 
+# plot 1
+```{r}
+instacart_df %>% 
+  
+```
+
+
 
