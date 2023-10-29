@@ -1,0 +1,14 @@
+---
+title: "My landing page"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This is Tianyun's website
+![](image/cat.jpeg) 
+My cat Piglet! He didn't want to look at the camera lol
+
+## link to my resume
+[About Me](about.html)
