@@ -7,9 +7,10 @@ output:
 ---
 
 ## My cat
-My cat Piglet! He didn't want to look at the camera lol
-<img src="image/cat.jpeg" style= "width:75%">
+My cat Piglet, trying his best not to get up lol
 
+
+<img src="image/cat.jpeg" style= "width:75%">
 
 
 
