@@ -1,11 +1,33 @@
 ---
-title: "My resume"
+title: "Previous Experiences"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
-![](image/resume.png)
+#### Education
+- **Columbia University, Mailman School of Public Health (New York, NY)**
+- *Master of Public Health, Epidemiology (Applied Biostatistics Certificate)*
+- GPA: 4.07/4.3
+- Relevant courses: *Applied Regression, Clinical Epidemiology, Data Science, Epidemiologic Analysis, Health Systems*
+
+- **University of Toronto, Faculty of Arts and Science (Toronto, Canada)**
+- *Bachelor of Science, Double Major in Biochemistry and Pharmacology (Sept 2018 – June 2022)*   
+- GPA: 3.83/4.0
+- Relevant courses: *Neuropsychopharmacology, Systems Pharmacology, Protein Homeostasis*
+
+
+#### Skills
+- **Computer Tools:** SAS, R, Microsoft Office Suite
+- **SAS Modeling:** Linear Regression, Logistic Regression
+- **Laboratory Skills:** Spectrophotometry, ELISA, PCR, Gel electrophoresis, Perfusion
+
+
+#### Research Experience
+- **Epidemiology of Parental Major Depression in the United States in 2021                   (New York, NY)**
+- Conduct literature review by reading 40 journal articles to understand current research gaps and determine study aims.
+- Analyze population demographic characteristics using SAS modeling from nationwide survey dataset.
+- Present research results at 2023 Epidemiology master’s Student Day (Oct. 27).
 
 
 
