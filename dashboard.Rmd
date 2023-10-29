@@ -33,9 +33,9 @@ Column {data-width=650}
 ```{r}
 instacart_df %>% 
   group_by(aisle) %>% 
-  summarize(obs = n()) %>% 
-  mutate(aisle = fct_reorder(aisle, obs)) %>% 
-  plot_ly(x = ~aisle, y = ~obs, color = ~aisle, type = "bar", colors = "viridis")
+  summarize(number_order = n()) %>% 
+  mutate(aisle = fct_reorder(aisle, number_order)) %>% 
+  plot_ly(x = ~aisle, y = ~number_order, color = ~aisle, type = "bar", colors = "viridis")
 ```
 
 Column {data-width=350}
@@ -45,7 +45,8 @@ Column {data-width=350}
 
 ```{r}
 instacart_df %>% 
-  plot_ly(x = ~aisle, y = ~ order_dow, color = ~aisle, type = "box", colors = "viridis")
+  rename(day_in_week = order_dow) %>% 
+  plot_ly(x = ~aisle, y = ~ day_in_week, color = ~aisle, type = "box", colors = "viridis")
 ```
 
 ### The time(hour) in each day when the orders are placed in each aisle
@@ -53,8 +54,8 @@ instacart_df %>%
 ```{r}
 instacart_df %>% 
   group_by(aisle, order_hour_of_day) %>% 
-  summarize(obs = n()) %>% 
-  plot_ly(x = ~order_hour_of_day, y = ~obs, color = ~aisle, type = "scatter", mode = 'lines+markers', colors = "viridis")
+  summarize(number_order = n()) %>% 
+  plot_ly(x = ~order_hour_of_day, y = ~number_order, color = ~aisle, type = "scatter", mode = 'lines+markers', colors = "viridis")
   
 ```
 
