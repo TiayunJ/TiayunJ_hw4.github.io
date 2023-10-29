@@ -8,7 +8,7 @@ output:
 
 # This is Tianyun's website
 
-![](image/) 
+
 My cat Piglet! He didn't want to look at the camera lol
 
 ## link to my resume
