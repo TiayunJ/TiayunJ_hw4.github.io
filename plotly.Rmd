@@ -1,0 +1,27 @@
+---
+title: "Plot examples"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+Instacart
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+
+library(plotly)
+```
+
+# loading the data and filter the ones under the department 'alcohol'
+```{r}
+data("instacart")
+
+instacart_df = 
+  instacart %>% 
+  filter(department == "alcohol") %>% view()
+
+```
+
+
