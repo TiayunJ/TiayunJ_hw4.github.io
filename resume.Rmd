@@ -27,8 +27,26 @@ output:
 - **Epidemiology of Parental Major Depression in the United States in 2021                   (New York, NY)**
 - Conduct literature review by reading 40 journal articles to understand current research gaps and determine study aims.
 - Analyze population demographic characteristics using SAS modeling from nationwide survey dataset.
-- Present research results at 2023 Epidemiology master’s Student Day (Oct. 27).
+- Present research results at 2023 Epidemiology master’s Student Day.
 
+- **Endocannabinoid System on Parvalbumin Interneurons Under Stress (Toronto, Canada)**
+- Conducted animal handling and suturing in stereotactic brain surgeries.
+- Analyzed the engram cell connections using Imaris and experimental data with Prism.
+- Completed final report to describe and interpret research results.
+
+- **Manipulating Spatial Memory with Optogenetics (Toronto, Canada)**
+- Performed animal behavioral tasks, mouse brain perfusion, and mouse brain slicing, with immunostaining and mounting on the brain slices for further analysis.
+- Presented the research poster at the 2021 SickKids Summer Research Program Symposium Day.
+
+- **In-vitro Test for Inflammasome Inhibitor (Hangzhou, China)**
+- Performed ELISA to investigate the in-vitro activities of the inflammasome inhibitors.
+
+
+#### Selected Course Project
+- **Public Health Data Processing and Analyzing**, *Mar 2023*
+- Processed and analyzed data related to public health issues (triglyceride level and alcohol use among patients) using SAS based on NHANES dataset.
+- **The Pharmacology of Cannabidiol and Its Potential Therapeutic Effects**, *Nov 2021*
+- Outlined the pharmacokinetics and pharmacodynamics of Cannabidiol (CBD), and its potential therapeutic effect in treating post-traumatic stress disorder (PTSD).
 
 
 
