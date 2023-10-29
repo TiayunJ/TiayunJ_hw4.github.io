@@ -1,15 +1,19 @@
 ---
-title: "My landing page"
+title: "My website hw"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-# This is Tianyun's website
-![](image/cat.jpeg)
-
+## My cat
 My cat Piglet! He didn't want to look at the camera lol
+<img src="image/cat.jpeg" style= "width:75%">
+
+
+
+
+
 
 ## link to my resume
-[About Me](about.html)
+[My Resume](resume.html)
